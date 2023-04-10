@@ -1,6 +1,4 @@
 export default{
-    name:my-modulo,
-    template: /*html */`
+    name:mymodulo,
     
-    `,
 }

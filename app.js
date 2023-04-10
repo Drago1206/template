@@ -1,4 +1,4 @@
-import {createapp} from 'https://unpkg.com/browse/vue@3.2.47/dist/vue.esm-browser.prod.js'
-import myModule from './components/my-module';
+import {createapp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+import mymodulo  from './components/my-module';
 
-createapp(myModule).mount(`#app`)
+createapp(mymodulo).mount(`#app`)
