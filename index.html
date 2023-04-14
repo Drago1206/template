@@ -6,49 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js" type="module" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
     <div id="app">
         <section class="hero">
             <div class="main-width">
-                <header>
-                    <div class="logo">
-                        <i class="fa-solid fa-e"></i>
-                    </div>
-                    <nav>
-                        <div class="hamb">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <ul class="nav-list">Home</ul>
-                        <li><a href="#"></a>About</li>
-                        <li><a href="#"></a>Services</li>
-                        <li><a href="#"></a>works</li>
-                        <li class="btn"><a href="#"></a>Contact Me</li>
-                    </nav>
-                </header>
-                <div class="container">
-                    <div class="hero-text">
-                        <h3>Hi there!</h3>
-                        <h1>I am <span>Elizabeth Elmiz</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aliquam harum rerum officia, vitae facere vel molestias perferendis quas! Laborum porro nostrum odio tenetur quis facilis, eaque earum modi quibusdam.</p>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"><i class="fa-brands fa-dribbble"></i></i></a>
-                            <a href="#"><i class="fa-brands fa-behance"></i></a>
-
-                        </div>
-                        <button type="button">More About Me</button>
-                    </div>
-                    <div class="bottom">
-                        <p>2022 Tahmid -All Rights Reserved.</p>
-                    </div>
-                </div>
+                <mymodulo :header="header"></mymodulo>
+                <containers :container="container"></containers>
             </div>
         </section>
     </div>
+
 </body>
 </html>
